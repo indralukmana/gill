@@ -11,7 +11,7 @@ import { notFound } from "next/navigation";
 
 import { apiSource } from "@/lib/source";
 import { Spread } from "@/lib/Spread";
-import { LLMCopyButton, ViewOptions } from "@/components/page-actions";
+import { LLMCopyButton } from "@/components/page-actions";
 
 export async function generateStaticParams() {
   return apiSource.generateParams();
